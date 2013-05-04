@@ -1,0 +1,40 @@
+<!-- saved from url=(0015)http://intranet -->
+<HTML>
+<HEAD>
+    <TITLE>IETabProcControl</TITLE>
+    <SCRIPT LANGUAGE="javascript">
+        function fnDone()
+        {
+            try
+            {
+                document.all['IETabProcControl'].Done();
+            }
+            catch( e )
+            {
+                //alert(e);
+            }
+            return;
+        }
+        
+        function fnNavigate(szURL)
+        {
+	        try
+	        {
+		        document.all['IETabProcControl'].Navigate(szURL);
+	        }
+	        catch( e )
+	        {
+		        //alert(e);
+	        }
+	        return;
+        }
+    </SCRIPT>
+
+</HEAD>
+<BODY onunload="fnDone()">
+	Multi-Login Address:<INPUT TYPE="text" SIZE="80" NAME="Address" VALUE=""> 
+		<INPUT TYPE="submit" VALUE="Go" ONCLICK="fnNavigate(document.all['Address'].value);">
+		<hr>
+    <OBJECT ID="IETabProcControl" CLASSID="CLSID:B0A5D32F-C64E-40C7-86D7-C2CBD1B1F32A" WIDTH=100% HEIGHT=95% align="CENTER"/></OBJECT>
+</BODY>
+</HTML>

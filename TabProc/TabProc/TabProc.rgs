@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'TabProc'
+		'TabProc.EXE'
+		{
+			val AppID = s '%APPID%'
+		}
+	}
+}

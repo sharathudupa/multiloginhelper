@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MultiLoginHelperSetup", "MultiLoginHelperSetup\MultiLoginHelperSetup.vdproj", "{C95BFCE5-1F1C-4F5C-85FF-71A28AEA3DDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C95BFCE5-1F1C-4F5C-85FF-71A28AEA3DDB}.Debug|Default.ActiveCfg = Debug
+		{C95BFCE5-1F1C-4F5C-85FF-71A28AEA3DDB}.Debug|Default.Build.0 = Debug
+		{C95BFCE5-1F1C-4F5C-85FF-71A28AEA3DDB}.Release|Default.ActiveCfg = Release
+		{C95BFCE5-1F1C-4F5C-85FF-71A28AEA3DDB}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

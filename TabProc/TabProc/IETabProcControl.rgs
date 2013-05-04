@@ -1,0 +1,31 @@
+HKCR
+{
+	TabProc.IETabProcControl.1 = s 'IETabProcControl Class'
+	{
+		CLSID = s '{B0A5D32F-C64E-40C7-86D7-C2CBD1B1F32A}'
+	}
+	TabProc.IETabProcControl = s 'IETabProcControl Class'
+	{
+		CLSID = s '{B0A5D32F-C64E-40C7-86D7-C2CBD1B1F32A}'
+		CurVer = s 'TabProc.IETabProcControl.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {B0A5D32F-C64E-40C7-86D7-C2CBD1B1F32A} = s 'IETabProcControl Class'
+		{
+			ProgID = s 'TabProc.IETabProcControl.1'
+			VersionIndependentProgID = s 'TabProc.IETabProcControl'
+			ForceRemove 'Programmable'
+			LocalServer32 = s '%MODULE%'
+			val AppID = s '%APPID%'
+			ForceRemove 'Control'
+			ForceRemove 'ToolboxBitmap32' = s '%MODULE%, 102'
+			'MiscStatus' = s '0'
+			{
+			    '1' = s '%OLEMISC%'
+			}
+			'TypeLib' = s '{D55E4D71-813C-47E8-9A62-10EAF3AE8E91}'
+			'Version' = s '1.0'
+		}
+	}
+}

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TabProc", "TabProc\TabProc.vcproj", "{54DEFBA8-EB17-4775-9632-D131F69BCF8B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TabProcPS", "TabProc\TabProcPS.vcproj", "{55B04B32-BE7D-442F-B190-DD13B64B0BE6}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{54DEFBA8-EB17-4775-9632-D131F69BCF8B} = {54DEFBA8-EB17-4775-9632-D131F69BCF8B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54DEFBA8-EB17-4775-9632-D131F69BCF8B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54DEFBA8-EB17-4775-9632-D131F69BCF8B}.Debug|Win32.Build.0 = Debug|Win32
+		{54DEFBA8-EB17-4775-9632-D131F69BCF8B}.Release|Win32.ActiveCfg = Release|Win32
+		{54DEFBA8-EB17-4775-9632-D131F69BCF8B}.Release|Win32.Build.0 = Release|Win32
+		{55B04B32-BE7D-442F-B190-DD13B64B0BE6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{55B04B32-BE7D-442F-B190-DD13B64B0BE6}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
